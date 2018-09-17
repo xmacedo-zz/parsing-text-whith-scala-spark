@@ -1,2 +1,31 @@
-*.class
+# general
+*~
 *.log
+tmp
+dump
+*.DS_Store
+
+# Scala IDE
+.idea
+.idea_modules
+.settings
+.cache*
+.project
+.classpath
+.scala_dependencies
+bin
+
+# IntelliJ
+metastore_db
+
+# SBT
+dist
+project/boot
+project/project
+project/target
+project/plugins/target
+project/.sbtserver*
+target
+.target
+.tmpBin
+.sbtserver*
